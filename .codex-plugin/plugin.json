@@ -1,0 +1,24 @@
+{
+  "name": "project-commercial-advisor",
+  "version": "0.1.0",
+  "description": "以市场证据、项目经济模型和真实经营结果支持项目立项与持续投入决策。",
+  "author": {
+    "name": "hunterhigh",
+    "url": "https://github.com/hunterhigh"
+  },
+  "homepage": "https://github.com/hunterhigh/project-commercial-advisor",
+  "repository": "https://github.com/hunterhigh/project-commercial-advisor",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "项目商业顾问",
+    "shortDescription": "基于证据判断项目应立项、继续、调整或停止。",
+    "longDescription": "面向项目全生命周期的通用商业顾问：立项前形成可验证的商业判断，上线后使用真实经营数据检验并修正判断。",
+    "developerName": "hunterhigh",
+    "category": "Productivity",
+    "capabilities": ["Research", "Data analysis"],
+    "defaultPrompt": [
+      "分析这个项目是否值得立项，并说明关键假设和验证方法。",
+      "根据项目上线后的数据，判断应该继续、调整还是停止投入。"
+    ]
+  }
+}
